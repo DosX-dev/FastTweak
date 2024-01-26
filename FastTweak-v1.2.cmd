@@ -186,17 +186,19 @@ reg add "HKLM\SOFTWARE\Microsoft\WindowsSelfHost\UI\Strings" /v "DiagnosticError
 reg add "HKLM\SOFTWARE\Microsoft\WindowsSelfHost\UI\Strings" /v "DiagnosticLinkText" /t REG_SZ /d "" /f
 ) %no-output-attribute%
 
-:: Uninstall 'Cortana'
 call :log "Uninstalling Cortana..."
 powershell Get-AppXPackage -AllUsers Microsoft.549981C3F5F10 ^| Remove-AppxPackage %no-output-attribute%
 
-:: Cleanup temp files...
+call :log "Cleanup temp files..."
 if not exist "%temp%" md "%temp%"
 pushd "%temp%"
 rd "%cd%" /q /s %no-output-attribute%
 popd
 
 call :log "Clearing event logs..."
+pushd "%appdata%\Microsoft\Windows\Recent"
+rd "%cd%" /q /s %no-output-attribute%
+popd
 for /f "delims=" %%I in ('WEVTUTIL EL') do (WEVTUTIL CL "%%I") %no-output-attribute%
 
 call :log "Cleaning icons cache..."
