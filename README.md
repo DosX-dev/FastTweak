@@ -9,7 +9,7 @@ FastTweak is a powerful Batch program designed to enhance your computer experien
 - **Log Cleaner**: Wipe away logs and previous activities for a cleaner system.
 - **User-friendly**: FastTweak is designed for ease of use. Just run it!
 
-![screenshot.jpg]()
+![](screenshot.jpg)
 
 ## Getting Started 🏁
 
