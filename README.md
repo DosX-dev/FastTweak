@@ -1,4 +1,4 @@
-# FastTweak
+# FastTweak Utility
 
 FastTweak is a powerful Batch program designed to enhance your computer experience by providing a quick and efficient way to disable telemetry, clean up autoload settings, logs, and other residual activities without compromising your system's functionality. This tool operates autonomously, requiring just a simple launch to get things started.
 
