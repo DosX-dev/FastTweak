@@ -211,7 +211,7 @@ ie4uinit.exe -ClearIconCache
 call :log "Disk cleaning..."
 (
 del %appdata%\*.log /q /s
-cleanmgr /sagerun:1 /tuneup:1 /autoclean
+cleanmgr /sagerun:1 /autoclean
 ) %no-output-attribute%
 
 call :log "Explorer restarting..."
