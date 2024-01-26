@@ -16,7 +16,7 @@ FastTweak is a powerful Batch program designed to enhance your computer experien
     ```batch
     git clone https://github.com/DosX-dev/FastTweak.git
     ```
-    or follow the link [https://codeload.github.com/DosX-dev/FastTweak/zip/refs/heads/main](FastTweak-main.zip)
+    or follow the link [FastTweak-main.zip](https://codeload.github.com/DosX-dev/FastTweak/zip/refs/heads/main)
 
 2. **Run**: Execute the `FastTweak-v1.2.cmd`
 
