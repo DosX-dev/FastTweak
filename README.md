@@ -30,9 +30,11 @@ Use FastTweak responsibly. While it aims to enhance your computer experience, en
 FastTweak is an open-source project. Feel free to contribute by creating issues, suggesting improvements, or submitting pull requests.
 
 ## Donation 🤝
+Bitcoin:
 ```BTC
 1DosXdevPgbaRKJkAJpvf2Jmjip8zC57he
 ```
+Litecoin:
 ```LTC
 LUCKY777ju5Ea2VmenRuvk75kRUzTfwrHw
 ```
